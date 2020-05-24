@@ -4,9 +4,6 @@ console.log(x);
 console.log(png);
 
 const div = document.querySelector("#add");
-// div.innerHTML = `
-//     <img src="${png}">
-// `;
 
 const button = document.createElement("button");
 button.innerHTML = "懒加载";
